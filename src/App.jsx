@@ -1,16 +1,16 @@
-import Player from "./components/Player";
+import Player from "./components/Player.jsx";
 
 function App() {
   return (
     <main>
       <div id="game-container">
         <ol id="players">
-          <Player name="Pradeep" symbol="X" />
-          <Player name="Pramod" symbol="O" />
+          <Player initialName="Pradeep" symbol="X" />
+          <Player initialName="Pramod" symbol="O" />
         </ol>
-        Game Board
+        GAME BOARD
       </div>
-      Log
+      LOG
     </main>
   );
 }
